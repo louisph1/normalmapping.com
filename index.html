@@ -118,21 +118,18 @@
         <h2>Normal Map Calculator</h2>
         <p>Type your required angles in the boxes below</p>
 
-        <!-- Box 1 -->
         <div class="box">
             <label for="num1">Horizontal θ</label>
             <input type="number" id="num1" value="0" step="any" oninput="calculateSum()">
         </div>
 
-        <!-- Box 2 -->
         <div class="box">
             <label for="num2">Vertical θ</label>
             <input type="number" id="num2" value="45" step="any" oninput="calculateSum()">
         </div>
 
-        <!-- Box 3 - Result -->
         <div class="result-box" id="result-box">
-            <label>Sum:</label>
+            <label>Result:</label>
             <span id="result">0</span>
         </div>
 
@@ -140,7 +137,7 @@
         <!-- Canvas Section -->
         <div class="canvas-section">
             <canvas id="myCanvas" width="500" height="500"></canvas>
-            <p class="note">Click me :)<br><a href="wheel.png">Download image (without the dot)</a></p>
+            <p class="note"><a href="wheel.png">Download image (without the dot)</a></p>
 
             <div class="description-section">
                 <div class="description-title">About Normal Mapping</div>
